@@ -1,6 +1,6 @@
 === Rename Featured Image ===
 Contributors: hrishiv90
-Tags: rename image, rename post attachment, rename post thumbnail
+Tags: rename image, rename post attachment, rename post thumbnail, featured image rename, rename thumbnail
 Requires at least: 4.1
 Tested up to: 4.2
 Stable tag: 1.0
@@ -29,6 +29,8 @@ Use Plugin feature from the plugin settings page.
 
 == Screenshots ==
 
+1. Rename Featured Image bulk update page
+
 == Frequently Asked Questions ==
 
 = Does this plugin actually renames the image file? =
@@ -44,3 +46,8 @@ Yes, plugin renames the file name in both the attachment url and guid.
 = Can we revert the previous name of file to it? =
 
 No, once file is renamed then previous file name can't be brought back.
+
+== Changelog ==
+
+= 1.0 =
+* First Release

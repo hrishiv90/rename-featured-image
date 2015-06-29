@@ -151,12 +151,12 @@ class wpRFPOptions {
                                         'post_type'  => 'post',
                                         'posts_per_page' => -1,
                                         'post_status' => 'any',
-                                         'meta_query' => array(
-                                             array(
-                                              'key' => '_thumbnail_id',
-                                              'compare' => 'EXISTS'
-                                             ),
-                                         )
+                                        'meta_query' => array(
+                                            array(
+                                                'key' => '_thumbnail_id',
+                                                'compare' => 'EXISTS'
+                                            ),
+                                        )
                                     );
                                     $posts_with_fimg = get_posts($args);
                                     $post_count = count($posts_with_fimg);
